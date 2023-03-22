@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none;
+}
+
+a:focus,
+*:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  vertical-align: top;
+}
+
+input:-internal-autofill-selected {
+  background-color: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+ul li {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background: #181616;
+  color: #fff;
+  line-height: 1.2em;
+}
+
+header {
+  margin-top: 2em;
+}
+
+footer {
+  margin: 2em 0;
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #3dffdb;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #3dffdb;
+}
+
+@media screen and (max-width: 600px) {
+  a {
+    display: block;
+  }
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    padding: 0 1em;
+  }
+}
+
+.photo {
+  height: 30vh;
+  display: block;
+  border-radius: 5px;
+  margin: 2em auto;
+}
+
+.tag {
+  color: #818181;
+}
+
+.title {
+  line-height: 0.6em;
+}
+
+section {
+  padding-top: 2em;
+}
+
+.section-title {
+  color: #0094ff;
+}
+
+.adaptive-tag {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .top-container > .title > span.tag {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  li {
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  .top-container > .title > span.tag {
+    display: block;
+  }
+
+  li > span.tag {
+    display: none;
+  }
+
+  .experience-link {
+    margin-bottom: 1em;
+  }
+
+  .adaptive-tag {
+    display: block;
+  }
+
+  .contact-link {
+    margin-top: 0.5em;
+  }
+}
